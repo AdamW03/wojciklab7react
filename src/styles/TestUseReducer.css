@@ -1,0 +1,45 @@
+/*Zadanie nr 2*/
+.container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button.increment {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button.decrement {
+    background-color: #f44336;
+    color: white;
+}
+
+.button:active {
+    transform: scale(0.98);
+}
